@@ -25,7 +25,7 @@ const Hero = () => {
             >
                 FESTRONIX
             </div>
-            <div className='bg-amber-200 text-center text-light text-4xl' style={{ letterSpacing: '1.0em' }}>
+            <div className='text-center text-light text-4xl'>
                 2025
             </div>
         </div>
