@@ -1,3 +1,4 @@
+import EventShowCase from '@/sections/EventShowCase'
 import Hero from '@/sections/Hero'
 import Sponsors from '@/sections/Sponsors'
 import TechfestTimeline from '@/sections/techfest-timeline'
@@ -9,6 +10,9 @@ const Landing = () => {
         <Hero/>
         <TechfestTimeline/>
         <Sponsors/>
+        <Hero />
+        <EventShowCase />
+        <TechfestTimeline />
     </>
   )
 }
