@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { ChevronDown, ChevronUp } from "lucide-react"
+import { useState } from "react";
+import { ChevronDown, ChevronUp } from "lucide-react";
 
 export default function FAQSection() {
-  const [openIndex, setOpenIndex] = useState<number | null>(null)
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const faqs = [
     { question: "I am a beginner, can I participate?", answer: "Yes! Our events welcome all skill levels." },
@@ -15,36 +15,34 @@ export default function FAQSection() {
     { question: "What is the registration fee?", answer: "The registration fees for each event are mentioned in the respective rule book." },
     { question: "Where can I see Event details?", answer: "Kindly visit the Events page and check out respective events." },
     { question: "I have more queries!", answer: "Feel free to contact us via email or our support chat on the website." }
-  ]
+  ];
 
   const toggleFAQ = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index)
-  }
+    setOpenIndex(openIndex === index ? null : index);
+  };
 
   return (
     <section className="max-w-5xl mx-auto px-6 py-16">
-      {/* Section Title */}
       <div className="text-center mb-12">
         <h2 className="text-5xl font-bold text-light">
-          FAQs: <span className=" text-light">Your Queries, Our Insights</span>
+          FAQs: <span className="text-light">Your Queries, Our Insights</span>
         </h2>
         <p className="text-gray-200 mt-4 max-w-2xl mx-auto">
           Explore the answers that empower your experience, guiding you through every aspect of our event.
         </p>
       </div>
 
-      {/* FAQ Items */}
       <div className="space-y-6">
         {faqs.map((faq, index) => (
           <div
             key={index}
-            className="bg-opacity-10 backdrop-blur-lg border border-gray-700 rounded-xl shadow-lg overflow-hidden transition-all"
+            className="border-b border-gray-700 py-4 transition-all"
           >
             <button
-              className="flex justify-between items-center w-full text-left p-5 bg-gradient-to-r from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 transition-all rounded-xl"
+              className={`flex justify-between items-center w-full text-left pb-2 text-xl font-semibold transition-all ${openIndex === index ? 'text-blue-400' : 'text-white'} hover:text-blue-400`}
               onClick={() => toggleFAQ(index)}
             >
-              <span className="text-lg font-medium text-white">{faq.question}</span>
+              <span>{faq.question}</span>
               {openIndex === index ? (
                 <ChevronUp size={20} className="text-blue-400" />
               ) : (
@@ -52,7 +50,7 @@ export default function FAQSection() {
               )}
             </button>
             {openIndex === index && (
-              <div className="p-5 bg-gray-900 text-gray-300 text-sm transition-all duration-300 rounded-b-xl">
+              <div className="mt-2 text-gray-300 text-md transition-all duration-300">
                 {faq.answer}
               </div>
             )}
@@ -60,5 +58,5 @@ export default function FAQSection() {
         ))}
       </div>
     </section>
-  )
+  );
 }
