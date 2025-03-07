@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import Link from "next/link"
 
 const ImageCarousel = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0)
@@ -66,13 +67,19 @@ const EventShowCase = () => {
                 PAGE 3
             </Button> */}
             <Button variant={'ghost'} className='text-lg px-6 py-3 transition duration-300 ease-in-out hover:bg-[#303030] hover:outline'>
-                PAGE 1
+              <Link href={'/events/tech/'}>
+                Coding & Tech Innovation
+              </Link>
             </Button>
             <Button variant={'ghost'} className='text-lg px-6 py-3 transition duration-300 ease-in-out hover:bg-[#303030] hover:outline'>
-                PAGE 2
+              <Link href={'/events/engineering'}>
+                Engineering & Design
+              </Link>
             </Button>
             <Button variant={'ghost'} className='text-lg px-6 py-3 transition duration-300 ease-in-out hover:bg-[#303030] hover:outline'>
-                PAGE 3
+              <Link href={'/events/non-tech'}>
+                Business, Creativity & Knowledge
+              </Link>
             </Button>
         </div>
         <div className='h-7/10 flex flex-col sm:flex-row items-center justify-center text-amber-50 w-full'>
@@ -80,7 +87,7 @@ const EventShowCase = () => {
                 <ImageCarousel/>
             </div>
 
-            <div className="flex items-center justify-center text-amber-50 sm:w-3/10 w-full sm:h-full h-3/10 p-10">
+            <div className="flex items-center justify-center text-amber-50 sm:w-3/10 w-full sm:h-full h-3/10 p-10 text-center sm:text-left">
                 <article>
                     <p className="text-3xl font-bold">Lorem ipsum dolor</p>
                     <br />
