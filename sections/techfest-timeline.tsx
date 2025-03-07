@@ -57,7 +57,7 @@ export default function TechfestTimeline() {
   ]
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 py-12">
+    <div className="w-full max-w-7xl mx-auto px-4 py-12 text-white">
       <h2 className="text-3xl font-bold text-center mb-12">Techfest Timeline</h2>
 
       <div className={cn("relative", isMobile ? "overflow-x-auto pb-8" : "")}>
@@ -68,7 +68,7 @@ export default function TechfestTimeline() {
 
           {/* Progress timeline line */}
           <div
-            className="absolute top-10 left-0 h-1 bg-dark transition-all duration-500 z-[1]"
+            className="absolute top-10 left-0 h-1 bg-white transition-all duration-500 z-[1] my-4"
             style={{
               width: `${(activeIndex / (timelineEvents.length - 1)) * 100}%`,
             }}
@@ -85,13 +85,6 @@ export default function TechfestTimeline() {
               )}
               onMouseEnter={() => setActiveIndex(index)}
             >
-              {/* Timeline dot */}
-              <div
-                className={cn(
-                  "w-5 h-5 rounded-full absolute left-1/2 -translate-x-1/2 top-8 z-10 transition-all duration-300",
-                  activeIndex === index ? "bg-primary scale-125" : "bg-muted-foreground/50 group-hover:bg-primary/70",
-                )}
-              />
 
               {/* Icon */}
               <div

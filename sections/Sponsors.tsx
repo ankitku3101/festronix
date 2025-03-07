@@ -13,22 +13,23 @@ const Sponsors = () => {
   return (
     <div className="min-h-screen bg-dark py-12 px-6 text-white flex flex-col items-center w-full">
       <div className="text-center mb-12">
-        <h2 className="text-5xl font-bold text-white uppercase bg-pink-600 px-10 py-5 inline-block rounded-lg shadow-2xl">Our Sponsors</h2>
+        <h2 className="text-5xl font-bold text-light uppercase">Our Sponsors</h2>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 w-full max-w-6xl px-6">
         {sponsors.map((sponsor, index) => (
           <div
             key={index}
-            className="bg-gray-800 p-8 rounded-3xl shadow-2xl flex items-center justify-center h-48 transform transition duration-300 hover:scale-105 hover:bg-gray-700 hover:shadow-3xl"
+            className="bg-gray-800 p-6 rounded-2xl shadow-xl flex flex-col items-center justify-center h-48 transform transition duration-300 hover:scale-105 hover:bg-gray-700 hover:shadow-2xl"
           >
             <Image
               src={sponsor.logo}
               alt={sponsor.name}
-              width={250}
-              height={150}
-              className="object-contain"
+              width={200}
+              height={100}
+              className="object-contain mb-4"
             />
+            <p className="text-lg font-semibold">{sponsor.name}</p>
           </div>
         ))}
       </div>
