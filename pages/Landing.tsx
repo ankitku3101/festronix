@@ -1,3 +1,4 @@
+import EventShowCase from '@/sections/EventShowCase'
 import Hero from '@/sections/Hero'
 import TechfestTimeline from '@/sections/techfest-timeline'
 import React from 'react'
@@ -5,8 +6,9 @@ import React from 'react'
 const Landing = () => {
   return (
     <>
-        <Hero/>
-        <TechfestTimeline/>
+        <Hero />
+        <EventShowCase />
+        <TechfestTimeline />
     </>
   )
 }
