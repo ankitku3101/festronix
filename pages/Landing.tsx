@@ -1,4 +1,5 @@
 import Hero from '@/sections/Hero'
+import Sponsors from '@/sections/Sponsors'
 import TechfestTimeline from '@/sections/techfest-timeline'
 import React from 'react'
 
@@ -7,6 +8,7 @@ const Landing = () => {
     <>
         <Hero/>
         <TechfestTimeline/>
+        <Sponsors/>
     </>
   )
 }
