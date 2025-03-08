@@ -1,5 +1,4 @@
 'use client'
-
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { useRef } from 'react'
 
@@ -24,7 +23,7 @@ const BGWrapper = ({ children }: { children: React.ReactNode }) => {
       <motion.div
         className="absolute inset-0 w-full h-full bg-cover bg-center z-0"
         style={{
-          backgroundImage: `url('/HeroBG2.jpg')`,
+          backgroundImage: `url('/HeroBG4.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           opacity, 
