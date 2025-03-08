@@ -45,11 +45,14 @@ export const Header = () => {
               <Link href="/#home" className="hover:text-white">
                 Home
               </Link>
-              <Link href="/#theme" className="hover:text-white">
+              <Link href="/#techfest-timeline" className="hover:text-white">
+                Timeline
+              </Link>
+              <Link href="/#EventShowCase" className="hover:text-white">
                 Events
               </Link>
-              <Link href="/#schedule" className="hover:text-white">
-                Timeline
+              <Link href="/#Sponsors" className="hover:text-white">
+                Sponsors
               </Link>
               <Link href="/#contact" className="hover:text-white">
                 Contact

@@ -57,7 +57,7 @@ export default function TechfestTimeline() {
   ]
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 py-12 text-white">
+    <div id="techfest-timeline"className=" w-full max-w-7xl mx-auto px-4 py-12 text-light">
       <h2 className="text-3xl font-bold text-center mb-12">Techfest Timeline</h2>
 
       <div className={cn("relative", isMobile ? "overflow-x-auto pb-8" : "")}>
