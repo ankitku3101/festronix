@@ -58,17 +58,17 @@ const EventShowCase = () => {
     >
         <div className='h-3/10 flex flex-col sm:flex-row items-center justify-center text-amber-50 w-full space-y-4 sm:space-y-0 sm:space-x-16'>
             
-            <Button variant={'ghost'} className='text-lg px-6 py-3 transition duration-300 ease-in-out hover:bg-[#303030] hover:outline'>
+            <Button variant={'ghost'} className='text-lg px-6 py-3 transition duration-300 ease-in-out hover:bg-[#303030] hover:outline hover:text-blue-500'>
               <Link href={'/events/tech/'}>
                 Coding & Tech Innovation
               </Link>
             </Button>
-            <Button variant={'ghost'} className='text-lg px-6 py-3 transition duration-300 ease-in-out hover:bg-[#303030] hover:outline'>
+            <Button variant={'ghost'} className='text-lg px-6 py-3 transition duration-300 ease-in-out hover:bg-[#303030] hover:outline hover:text-blue-500'>
               <Link href={'/events/engineering'}>
                 Engineering & Design
               </Link>
             </Button>
-            <Button variant={'ghost'} className='text-lg px-6 py-3 transition duration-300 ease-in-out hover:bg-[#303030] hover:outline'>
+            <Button variant={'ghost'} className='text-lg px-6 py-3 transition duration-300 ease-in-out hover:bg-[#303030] hover:outline hover:text-blue-500'>
               <Link href={'/events/non-tech'}>
                 Business, Creativity & Knowledge
               </Link>
