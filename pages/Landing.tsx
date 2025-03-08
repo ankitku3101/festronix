@@ -1,3 +1,4 @@
+import BGWrapper from '@/components/BGWrapper'
 import EventShowCase from '@/sections/EventShowCase'
 import FAQSection from '@/sections/Faq'
 import Hero from '@/sections/Hero'
@@ -8,11 +9,13 @@ import React from 'react'
 const Landing = () => {
   return (
     <>
-        <Hero/>
-        <TechfestTimeline/>
-        <Sponsors/>
-        <EventShowCase />
-        <FAQSection/>
+        <BGWrapper>
+          <Hero />
+          <TechfestTimeline />
+          <Sponsors />
+          <EventShowCase />
+          <FAQSection />
+        </BGWrapper>
     </>
   )
 }
