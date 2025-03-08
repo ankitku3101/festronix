@@ -42,7 +42,7 @@ const ImageCarousel = () => {
               src={src || "/placeholder.svg"}
               alt={`Slideshow image ${index + 1}`}
               fill
-              className="object-cover" // This ensures the image covers the area without overflow
+              className="object-cover rounded-lg" // This ensures the image covers the area without overflow
               priority={index === 0}
             />
           </div>
