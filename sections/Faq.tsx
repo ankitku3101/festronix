@@ -22,7 +22,7 @@ export default function FAQSection() {
   };
 
   return (
-    <section className="max-w-5xl mx-auto px-6 py-16">
+    <section className="max-w-5xl mx-auto px-6 py-16 min-h-screen">
       <div className="text-center mb-12">
         <h2 className="text-5xl font-bold text-light">
           FAQs: <span className="text-light">Your Queries, Our Insights</span>
