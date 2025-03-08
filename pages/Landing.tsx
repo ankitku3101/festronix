@@ -12,8 +12,8 @@ const Landing = () => {
         <BGWrapper>
           <Hero />
           <TechfestTimeline />
-          <Sponsors />
           <EventShowCase />
+          <Sponsors />
           <FAQSection />
         </BGWrapper>
     </>

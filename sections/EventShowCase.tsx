@@ -53,7 +53,7 @@ const ImageCarousel = () => {
 
 const EventShowCase = () => {
     return (
-    <div
+    <div id="EventShowCase"
     className='bg-center h-screen flex flex-col items-center justify-center'
     >
         <div className='h-3/10 flex flex-col sm:flex-row items-center justify-center text-amber-50 w-full space-y-4 sm:space-y-0 sm:space-x-16'>
