@@ -7,7 +7,7 @@ export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const faqs = [
-    { question: "I am a beginner, can I participate?", answer: "Yes! Our events welcome all skill levels." },
+    { question: "I am a beginner, can I participate?", answer: "You should register for Nirman because this event is all about getting that experience!\nThe events provide a great environment to get started." },
     { question: "Can I participate in all of these events?", answer: "You can join multiple events, but check the schedule for conflicts." },
     { question: "What is a Hackathon?", answer: "A Hackathon is a competition where teams build solutions within a time limit." },
     { question: "Is Festronix an offline or online event?", answer: "Festronix is an offline event at Gift Autonomous campus." },
@@ -39,7 +39,7 @@ export default function FAQSection() {
             className="border-b border-gray-700 py-4 transition-all"
           >
             <button
-              className={`flex justify-between items-center w-full text-left pb-2 text-xl font-semibold transition-all ${openIndex === index ? 'text-blue-400' : 'text-white'} hover:text-blue-400`}
+              className={`flex justify-between items-center w-full text-left pb-2 text-xl font-semibold transition-all ${openIndex === index ? 'text-blue-400' : 'text-white hover:text-blue-400'}`}
               onClick={() => toggleFAQ(index)}
             >
               <span>{faq.question}</span>
@@ -50,7 +50,7 @@ export default function FAQSection() {
               )}
             </button>
             {openIndex === index && (
-              <div className="mt-2 text-gray-300 text-md transition-all duration-300">
+              <div className="mt-6 text-gray-300 text-md transition-all duration-300 border-t border-gray-600 pt-4">
                 {faq.answer}
               </div>
             )}
