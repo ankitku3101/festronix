@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 import { cn } from '@/lib/utils';
-
+import { Button } from '../ui/button';
 interface CardNTextProps {
     image:string;
     title:string;
@@ -15,6 +15,16 @@ const CardNText : React.FC<CardNTextProps> = ({image,title,description,index}) =
           <div className={cn("flex flex-col space-y-4", index % 2 === 1 ? "md:order-1" : "md:order-0")}>
             <h2 className="text-3xl font-bold tracking-tight">{title}</h2>
             <p className="text-muted-foreground">{description}</p>
+            
+            <div className={cn(
+                "pt-4",
+                index % 2 === 1 ? "md:text-right" : "md:text-left",
+                "text-center md:text-left"
+                )}>
+                <Button className='hover:bg-[#222]'>
+                    Learn More
+                </Button>
+            </div>
           </div>
           <div
             className={cn(
