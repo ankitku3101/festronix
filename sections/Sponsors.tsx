@@ -11,25 +11,25 @@ const sponsors = [
 
 const Sponsors = () => {
   return (
-    <div id="Sponsors" className="min-h-screen py-12 px-6 text-white flex flex-col items-center w-full">
-      <div className="text-center mb-12">
-        <h2 className="text-5xl font-bold text-light uppercase">Our Sponsors</h2>
+    <div id="Sponsors" className="min-h-screen py-12 px-4 text-white flex flex-col items-center w-full">
+      <div className="text-center mb-8">
+        <h2 className="text-3xl sm:text-5xl font-bold text-light uppercase">Our Sponsors</h2>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 w-full max-w-6xl px-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-4xl px-4">
         {sponsors.map((sponsor, index) => (
           <div
             key={index}
-            className="bg-gray-800 p-6 rounded-2xl shadow-xl flex flex-col items-center justify-center h-48 transform transition duration-300 hover:scale-105 hover:bg-gray-700 hover:shadow-2xl"
+            className="bg-gray-800 p-4 sm:p-6 rounded-xl shadow-lg flex flex-col items-center justify-center h-40 sm:h-48 transform transition duration-300 hover:scale-105 hover:bg-gray-700 hover:shadow-2xl"
           >
             <Image
               src={sponsor.logo}
               alt={sponsor.name}
-              width={200}
-              height={100}
-              className="object-contain mb-4"
+              width={150}
+              height={80}
+              className="object-contain mb-3 sm:mb-4"
             />
-            <p className="text-lg font-semibold">{sponsor.name}</p>
+            <p className="text-sm sm:text-lg font-semibold text-center">{sponsor.name}</p>
           </div>
         ))}
       </div>
