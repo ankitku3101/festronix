@@ -1,11 +1,6 @@
 import React from 'react'
 import CardNText from './CardNText'
-
-interface Detail{
-    image:string;
-    title:string;
-    description:string;
-}
+import {Detail} from "@/types/TypeFile"
 
 interface DetailProps{
     details:Detail[];
@@ -17,7 +12,7 @@ const EventDetails : React.FC<DetailProps>  = ({details,odd}) => {
     <div className='space-y-20'>
     {
         details.map((item,index)=>{
-            return <CardNText key={index+(odd?1:0)} index={index+(odd?1:0)} image={item.image} description={item.description} title={item.title}/>
+            return <CardNText key={index+(odd?1:0)} index={index+(odd?1:0)} image={item.image} description={item.description} title={item.title} specification={item.specification}/>
         })
     }
     </div>

@@ -11,7 +11,7 @@ const sponsors = [
 
 const Sponsors = () => {
   return (
-    <div className="min-h-screen bg-dark py-12 px-6 text-white flex flex-col items-center w-full">
+    <div id="Sponsors" className="min-h-screen py-12 px-6 text-white flex flex-col items-center w-full">
       <div className="text-center mb-12">
         <h2 className="text-5xl font-bold text-light uppercase">Our Sponsors</h2>
       </div>
