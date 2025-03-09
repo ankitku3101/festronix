@@ -12,6 +12,7 @@ const details : Detail[] = [
         image: "/hero1.jpg", 
         title: "Line Follower Robot Challenge", 
         description: "Participants build autonomous robots that follow a set path using sensors, showcasing their programming and control systems knowledge.",
+        doclink:'https://docs.google.com/document/d/1y7eWhxu-XmNC8BRYQqbtRhP4JMehEQ82/edit?usp=sharing&ouid=104139874459412838561&rtpof=true&sd=true',
         specification:[
             {
                 heading:"Team Composition",

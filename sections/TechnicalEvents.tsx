@@ -21,7 +21,8 @@ const details : Detail[] = [
     { 
         image: "/hero1.jpg", 
         title: "Mobile App Development Challenge", 
-        description: "Teams innovate and build user-centric mobile applications with a focus on functionality, design, and problem-solving." 
+        description: "Teams innovate and build user-centric mobile applications with a focus on functionality, design, and problem-solving.",
+        doclink:'https://drive.google.com/file/d/1Awv3wcjQkfOhBHrxW07EkCD033LOgrKP/view?usp=sharing'
     },
     { 
         image: "/hero1.jpg", 

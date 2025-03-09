@@ -14,12 +14,14 @@ const details : Detail[] = [
     { 
         image: "/hero1.jpg", 
         title: "Tech Quiz", 
-        description: "A knowledge-based competition testing participants on advancements in technology, engineering, and science." 
+        description: "A knowledge-based competition testing participants on advancements in technology, engineering, and science.",
+        doclink:'https://docs.google.com/document/d/1y4f94r68b81eN7WjL2Q-bGoE-X_JRgP1/edit?usp=sharing&ouid=104139874459412838561&rtpof=true&sd=true',
     },
     { 
         image: "/hero1.jpg", 
         title: "Paper Presentation", 
         description: "An academic platform for presenting technical papers, enhancing research, public speaking, and analytical skills.",
+        doclink:'https://docs.google.com/document/d/1PJQ5IX4k9rLQLh9lVYfM1qhh7ZOZCI_n/edit?usp=sharing&ouid=104139874459412838561&rtpof=true&sd=true',
         specification:[
             {
               heading: "Team Composition",
