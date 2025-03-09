@@ -12,6 +12,7 @@ const details : Detail[] = [
         image: "/hero1.jpg", 
         title: "AI & ML Model Contest", 
         description: "A challenge to develop AI/ML models that address practical issues, showcasing expertise in data science and algorithmic solutions.",
+        doclink:"https://drive.google.com/file/d/1py0VvcyFOmLnnkEXXYrMHNlsbGn7nAcD/view?usp=sharing",
     },
     { 
         image: "/hero1.jpg", 
