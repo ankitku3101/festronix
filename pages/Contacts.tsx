@@ -1,62 +1,57 @@
 import React from "react";
 
-const eventContacts = [
-  { event: "Inauguration", coordinator: "Ashalata Parida", phone: "XXXXXX" },
-  { event: "Hackathon", coordinator: "Ankit Kumar", phone: "XXXXXX" },
-  { event: "Robo War", coordinator: "Ashwini Kumar Sahoo", phone: "XXXXXX" },
-  { event: "Line Follower Robot Challenge", coordinator: "Prakash Sahoo", phone: "XXXXXX" },
-  { event: "AI & ML Model Contest", coordinator: "Samprita Patra", phone: "XXXXXX" },
-  { event: "Web Design Contest", coordinator: "Abinash Dash", phone: "XXXXXX" },
-  { event: "Treasure Hunt", coordinator: "Suhanee Sahoo", phone: "XXXXXX" },
-  { event: "Digital Doodle Contest", coordinator: "Ashutosh Kumar Sharma", phone: "XXXXXX" },
-  { event: "Mobile App Development Challenge", coordinator: "Manohar Shah", phone: "XXXXXX" },
-  { event: "CAD Designing Contest", coordinator: "Sidhanta Das", phone: "XXXXXX" },
-  { event: "IoT Innovation Challenge", coordinator: "Jyotilaxmi Senapati", phone: "XXXXXX" },
-  { event: "Tech Quiz", coordinator: "Gaytri Palai", phone: "XXXXXX" },
-  { event: "Paper Presentation", coordinator: "Biswa Ranjan Behera", phone: "XXXXXX" },
-  { event: "Tech Debate", coordinator: "Anil Barik", phone: "XXXXXX" },
-  { event: "Bridge Building Contest", coordinator: "Aman Jena", phone: "XXXXXX" },
-  { event: "Circuit Designing Competition", coordinator: "Sanjana Dash", phone: "XXXXXX" },
-  { event: "Smart Business Personal", coordinator: "Anjali Padhiary", phone: "XXXXXX" },
-  { event: "Smart Investor", coordinator: "Mohammad Asad", phone: "XXXXXX" },
-  { event: "Smart Gamer", coordinator: "Anshuman Bhoi", phone: "XXXXXX" },
-  { event: "Drone Challenger", coordinator: "Biswakalyan Udgata", phone: "XXXXXX" },
-  { event: "Pitch Deck Through Canva Video", coordinator: "Susmita Das", phone: "XXXXXX" },
-  { event: "Closing Ceremony", coordinator: "Ananya Pradhan", phone: "XXXXXX" }
-];
-
 const Contacts = () => {
-  return (
-    <div style={{ backgroundColor: "var(--color-light)", padding: "20px", minHeight: "100vh" }}>
-      <h1 style={{ textAlign: "center", color: "var(--color-dark)", fontSize: "24px", marginBottom: "10px" }}>
-        Event Contacts
-      </h1>
-      <p style={{ textAlign: "center", color: "var(--color-dark)", fontSize: "18px", marginBottom: "20px" }}>
-        Below are the details of event managers.
-      </p>
+  const contacts = [
+    { event: "Inauguration", name: "Ashalata Parida" },
+    { event: "Hackathon", name: "Ankit Kumar" },
+    { event: "Robo War", name: "Ashwini Kumar Sahoo" },
+    { event: "Line Follower Robot Challenge", name: "Prakash Sahoo" },
+    { event: "AI & ML Model Contest", name: "Samprita Patra" },
+    { event: "Web Design Contest", name: "Abinash Dash" },
+    { event: "Treasure Hunt", name: "Suhanee Sahoo" },
+    { event: "Digital Doodle Contest", name: "Ashutosh Kumar Sharma" },
+    { event: "Mobile App Development Challenge", name: "Manohar Shah" },
+    { event: "CAD Designing Contest", name: "Sidhanta Das" },
+    { event: "IoT Innovation Challenge", name: "Jyotilaxmi Senapati" },
+    { event: "Tech Quiz", name: "Gaytri Palai" },
+    { event: "Paper Presentation", name: "Biswa Ranjan Behera" },
+    { event: "Tech Debate", name: "Anil Barik" },
+    { event: "Bridge Building Contest", name: "Aman Jena" },
+    { event: "Circuit Designing Competition", name: "Sanjana Dash" },
+    { event: "Smart Business Personal", name: "Anjali Padhiary" },
+    { event: "Smart Investor", name: "Mohammad Asad" },
+    { event: "Smart Gamer", name: "Anshuman Bhoi" },
+    { event: "Drone Challenger", name: "Biswakalyan Udgata" },
+    { event: "Pitch Deck Through Canva Video", name: "Susmita Das" },
+    { event: "Closing Ceremony", name: "Ananya Pradhan" },
+  ];
 
-      {/* Table for Event Contacts */}
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        <table style={{ width: "90%", maxWidth: "800px", borderCollapse: "collapse", textAlign: "left" }}>
-          <thead>
-            <tr style={{ backgroundColor: "var(--color-green)", color: "white" }}>
-              <th style={{ padding: "10px", border: "1px solid var(--color-dark)" }}>Event</th>
-              <th style={{ padding: "10px", border: "1px solid var(--color-dark)" }}>Student Coordinator</th>
-              <th style={{ padding: "10px", border: "1px solid var(--color-dark)" }}>Phone</th>
-            </tr>
-          </thead>
-          <tbody>
-            {eventContacts.map((contact, index) => (
-              <tr key={index} style={{ backgroundColor: index % 2 === 0 ? "#fff" : "#f2f2f2" }}>
-                <td style={{ padding: "10px", border: "1px solid var(--color-dark)" }}>{contact.event}</td>
-                <td style={{ padding: "10px", border: "1px solid var(--color-dark)" }}>{contact.coordinator}</td>
-                <td style={{ padding: "10px", border: "1px solid var(--color-dark)" }}>{contact.phone}</td>
+  return (
+    <section className="flex items-center justify-center min-h-screen bg-dark text-light p-8">
+      <div className="max-w-5xl w-full bg-light p-6 rounded-lg shadow-lg">
+        <h2 className="text-4xl font-bold text-center mb-6 text-green">Contact Us</h2>
+        <div className="overflow-x-auto">
+          <table className="w-full border border-gray-700 rounded-lg shadow-md">
+            <thead>
+              <tr className="bg-dark text-light">
+                <th className="p-3 border border-gray-700 text-center">Event</th>
+                <th className="p-3 border border-gray-700 text-center">Student Coordinator</th>
+                <th className="p-3 border border-gray-700 text-center">Phone</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {contacts.map((contact, index) => (
+                <tr key={index} className="border-b border-gray-700 text-center bg-gray-100 odd:bg-white even:bg-gray-200">
+                  <td className="p-3">{contact.event}</td>
+                  <td className="p-3">{contact.name}</td>
+                  <td className="p-3">XXXXXXX</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
