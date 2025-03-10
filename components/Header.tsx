@@ -54,7 +54,7 @@ export const Header = () => {
               <Link href="/#Sponsors" className="hover:text-white">
                 Sponsors
               </Link>
-              <Link href="/#contact" className="hover:text-white">
+              <Link href="/Contacts" className="hover:text-white">
                 Contact
               </Link>
               <Link href="/#register" className="hover:text-white">
