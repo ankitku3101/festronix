@@ -7,7 +7,7 @@ export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const faqs = [
-    { question: "I am a beginner, can I participate?", answer: "You should register for Nirman because this event is all about getting that experience!\nThe events provide a great environment to get started." },
+    { question: "I am a beginner, can I participate?", answer: "You should register for Festronix because this event is all about getting that experience!\nThe events provide a great environment to get started." },
     { question: "Can I participate in all of these events?", answer: "You can join multiple events, but check the schedule for conflicts." },
     { question: "What is a Hackathon?", answer: "A Hackathon is a competition where teams build solutions within a time limit." },
     { question: "Is Festronix an offline or online event?", answer: "Festronix is an offline event at Gift Autonomous campus." },
