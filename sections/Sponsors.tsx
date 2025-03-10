@@ -1,12 +1,8 @@
 import Image from "next/image";
 
 const sponsors = [
-  { name: "Giottus", logo: "/logos/giottus.png" },
-  { name: "The Times of India", logo: "/logos/times-of-india.png" },
-  { name: "Sivarajavel IAS Academy", logo: "/logos/sivarajavel.png" },
-  { name: "Bahwan CyberTek", logo: "/logos/bahwan.png" },
-  { name: "Coding Ninjas", logo: "/logos/coding-ninjas.png" },
-  { name: "Agnikul", logo: "/logos/agnikul.png" },
+  { name: "IIG VARSITY", logo: "/logo/logo_iig.png" },
+  { name: "WEB _ BOCKET", logo: "/logo/logo_wb.png" },
 ];
 
 const Sponsors = () => {
