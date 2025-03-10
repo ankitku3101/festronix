@@ -11,7 +11,7 @@ const details : Detail[] = [
     { 
         image: "/hero1.jpg", 
         title: "AI & ML Model Contest", 
-        description: "A challenge to develop AI/ML models that address practical issues, showcasing expertise in data science and algorithmic solutions.",
+        description: "A fast-paced competition where developers and data scientists come together to showcase their build innovative AI-ML models.",
         doclink:"https://drive.google.com/file/d/1py0VvcyFOmLnnkEXXYrMHNlsbGn7nAcD/view?usp=sharing",
     },
     { 
@@ -22,7 +22,7 @@ const details : Detail[] = [
     { 
         image: "/hero1.jpg", 
         title: "Mobile App Development Challenge", 
-        description: "Teams innovate and build user-centric mobile applications with a focus on functionality, design, and problem-solving.",
+        description: "A fast-paced hackathon where developers and designers come together to build innovative mobile apps within 4 hours! Participants can work solo or in teams, using Android frameworks.",
         doclink:'https://drive.google.com/file/d/1Awv3wcjQkfOhBHrxW07EkCD033LOgrKP/view?usp=sharing'
     },
     { 
@@ -34,9 +34,9 @@ const details : Detail[] = [
 
 const TechnicalEvents = () => {
   return (
-    <div className='min-h-screen flex justify-center items-center text-light p-20'>
-        <div>
-            <p className='text-center p-15 text-6xl font-bold'>
+    <div className='min-h-screen flex justify-center items-center text-light p-4 md:p-8 lg:p-20 mt-20'>
+        <div className='w-full max-w-7xl'>
+            <p className='text-center mb-12 text-4xl md:text-5xl lg:text-6xl font-bold'>
                 Coding & Tech Innovation
             </p>
             <EventDetails details={details}/>
