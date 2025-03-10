@@ -5,11 +5,15 @@ import {Detail} from "@/types/TypeFile"
 const details : Detail[] = [
     { 
         image: "/hero1.jpg", 
-        title: "Treasure Hunt", description: "A tech-driven scavenger hunt where teams solve puzzles and decode clues, promoting teamwork and logical thinking." 
+        title: "Treasure Hunt", 
+        description: "Participants must follow the given clues, solve puzzles, search for hidden hints and find the next locations.They should work quickly, either individually or in teams, to reach the final treasure.",
+        doclink:'https://docs.google.com/document/d/1hm4tFdohHC_HfJrpeU87wC5Qs8rB_vfK/edit?usp=sharing&ouid=104139874459412838561&rtpof=true&sd=true',
     },
     { 
         image: "/hero1.jpg", 
-        title: "Digital Doodle Contest", description: "A digital art competition that encourages creativity and design skills through unique digital illustrations." 
+        title: "Digital Doodle Contest", 
+        description: "The Digital Doodle Contest is an exciting one-round competition open to students from all colleges. Participants will showcase their creativity by designing a unique doodle using digital tools such as mobile devices, laptops, or tablets. The doodle must be created for a specific application.",
+        doclink:"https://drive.google.com/file/d/1JA-OtwivA4e8KzAPcq4FM6E4VJm4MyQh/view?usp=sharing",
     },
     { 
         image: "/hero1.jpg", 
@@ -20,7 +24,7 @@ const details : Detail[] = [
     { 
         image: "/hero1.jpg", 
         title: "Paper Presentation", 
-        description: "An academic platform for presenting technical papers, enhancing research, public speaking, and analytical skills.",
+        description: "The Paper Presentation Challenge is a competition where participants showcase their research or innovative ideas on a technical or business-related topic of their choice. Each team must prepare both a poster and a PowerPoint presentation (PPT) to effectively communicate their findings.",
         doclink:'https://docs.google.com/document/d/1PJQ5IX4k9rLQLh9lVYfM1qhh7ZOZCI_n/edit?usp=sharing&ouid=104139874459412838561&rtpof=true&sd=true',
         specification:[
             {
@@ -79,7 +83,8 @@ const details : Detail[] = [
     { 
         image: "/hero1.jpg", 
         title: "Tech Debate", 
-        description: "A spirited debate on emerging technologies, encouraging critical thinking, communication, and awareness." 
+        description: "A spirited debate on emerging technologies, encouraging critical thinking, communication, and awareness.",
+        doclink:"https://docs.google.com/document/d/1nwu1p1FAqmneLyF8NkhWUDpN86DA7hUl/edit?usp=sharing&ouid=104139874459412838561&rtpof=true&sd=true",
     },
     { 
         image: "/hero1.jpg", 
@@ -94,16 +99,17 @@ const details : Detail[] = [
     { 
         image: "/hero1.jpg", 
         title: "Pitch Deck Through Canva Video", 
-        description: "A creative pitch deck competition where participants present innovative startup ideas using Canva."
+        description: "'Pitch Deck Through Canva Video' is an inter-college event aimed at enhancing participants' entrepreneurial and presentation skills. Participants will create compelling pitch decks using Canva and present innovative startup ideas. The event encourages creativity, business acumen, and effective communication.",
+        doclink:"https://docs.google.com/document/d/1rJnf4yt9CR3XcKq5wHAfnr-9z-tjw7o6/edit?usp=sharing&ouid=104139874459412838561&rtpof=true&sd=true",
     }
 ];
 
 const BussinessEvents = () => {
   return (
-    <div className='min-h-screen flex justify-center items-center text-light p-20'>
-        <div>
-            <p className='text-center p-15 text-6xl font-bold'>
-                Engineering & Design
+    <div className='min-h-screen flex justify-center items-center text-light p-4 md:p-8 lg:p-20 mt-20'>
+        <div className='w-full max-w-7xl'>
+            <p className='text-center mb-12 text-4xl md:text-5xl lg:text-6xl font-bold'>
+              Business, Creativity & Knowledge
             </p>
             <EventDetails details={details} odd={false}/>
         </div>
