@@ -4,15 +4,22 @@ import { Detail } from "@/types/TypeFile"
 
 const details : Detail[] = [
     { 
-        image: "/hero1.jpg", 
-        title: "Robo War", 
-        description: "A combat-based robotics challenge where teams design and build robots to battle, testing engineering, control, and strategy." 
+        image: "/engineer/dronecompetition.jpg", 
+        title: "Aerox - The Ultimate Drone Challenge", 
+        description: "An adrenaline-packed competition where innovation takes flight! Participants design, build, and pilot high-performance drones through challenging obstacle courses and precision tasks. Test your engineering skills, control accuracy, and strategic planning as you navigate your drone to victory. Only the most skilled and creative minds will conquer the skies!",
+        doclink:"https://drive.google.com/file/d/1KunMmjy2f1dTJUcmc8NlvM2KlMDd6LkU/view?usp=sharing",
     },
     { 
-        image: "/hero1.jpg", 
+        image: "/engineer/robowar.jpg", 
+        title: "Robo War", 
+        description: "A combat-based robotics challenge where teams design and build robots to battle, testing engineering, control, and strategy.",
+        doclink:"https://drive.google.com/file/d/1Lc3kzczNx7sf10nQUUDYKgvNb3L-Fhqh/view?usp=sharing",
+    },
+    { 
+        image: "/engineer/linefollowingrobot.webp", 
         title: "Line Follower Robot Challenge", 
         description: "The Line Follower Robot Challenge is a robotics competition where autonomous robots must follow a predefined path marked by a black or white line on a contrasting background. The robots should complete the track as quickly and accurately as possible.",
-        doclink:'https://docs.google.com/document/d/1y7eWhxu-XmNC8BRYQqbtRhP4JMehEQ82/edit?usp=sharing&ouid=104139874459412838561&rtpof=true&sd=true',
+        doclink:'https://drive.google.com/file/d/1iOAg0_T9CNfAmdt1glaf4I4C7bsdYbgV/view?usp=sharing',
         specification:[
             {
                 heading:"Team Composition",
@@ -80,17 +87,18 @@ const details : Detail[] = [
         ]
     },
     { 
-        image: "/hero1.jpg", 
+        image: "/engineer/cad2.jpg", 
         title: "CAD Designing Contest", 
-        description: "A creative competition to design 3D models using CAD software, emphasizing engineering design and product visualization." 
+        description: "A creative competition to design 3D models using CAD software, emphasizing engineering design and product visualization.",
+        doclink:"https://drive.google.com/file/d/11Xc7AH5IfYE7-gvkFeyXVDMIeCUMTq_d/view?usp=sharing"
     },
     { 
-        image: "/hero1.jpg", 
+        image: "/engineer/bridge.jpg", 
         title: "Bridge Building Contest", 
         description: "An engineering challenge to construct miniature bridges, evaluating strength, stability, and structural integrity." 
     },
     { 
-        image: "/hero1.jpg", 
+        image: "/engineer/circuitdesign2.jpg", 
         title: "Circuit Designing Competition", 
         description: "A test of electronics knowledge where participants design and assemble functional electronic circuits."
     }

@@ -10,14 +10,27 @@ const ImageCarousel = () => {
   
     // Sample image URLs - replace with your actual images
     const images = [
-      "/Hero.jpg?height=600&width=800",
-      "/Hero1.jpg?text=Image+2",
-      "/Hero2.jpg?text=Image+3",
-      "/Hero3.jpg?text=Image+4",
-      "/Hero4.jpg?text=Image+5",
-      "/Hero5.jpg?text=Image+6",
-      "/Hero6.jpg?text=Image+7",
-      "/Hero7.jpg?text=Image+8",
+      "/techevents/hackathon1.jpg",
+      "/techevents/aiml.jpg",
+      "/techevents/webdesign1.jpg",
+      "/techevents/mobileapp1.jpg",
+      "/techevents/iot.jpg",
+      "/engineer/dronecompetition.jpg",
+      "/engineer/robowar.jpg",
+      "/engineer/linefollowingrobot.webp",
+      "/engineer/cad2.jpg",
+      "/engineer/bridge.jpg",
+      "/engineer/circuitdesign2.jpg",
+      "/Bussiness/treasurehunt3.jpg",
+      "/Bussiness/digitaldoodle1.jpg",
+      "/Bussiness/quiz2.jpg",
+      "/Bussiness/paperpresentation.jpg",
+      "/Bussiness/debate1.jpg",
+      "/Bussiness/debate1.jpg",
+      "/Bussiness/smartbussiness.jpg",
+      "/Bussiness/smartinvestor1.jpg",
+      "/Bussiness/pitchdeck1.webp",
+      "/Bussiness/smartgamer1.jpg",
     ]
   
     // Auto-shuffle images every 3 seconds
@@ -82,10 +95,11 @@ const EventShowCase = () => {
 
             <div className="flex items-center justify-center text-amber-50 sm:w-3/10 w-full sm:h-full h-3/10 p-10 text-center sm:text-left">
                 <article>
-                    <p className="text-3xl font-bold">Lorem ipsum dolor</p>
+                    <p className="text-2xl font-bold">Prize Pool</p>
+                    <p className="text-5xl font-bold text-green">&#8377; 100000</p>
                     <br />
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, inventore corrupti, molestias dignissimos placeat
+                    <p className="text-justify">
+                      Win exciting prizes, cool goodies, and internship opportunities. Show your talent, beat the competition, and take a step closer to your dream career!
                     </p>
                 </article>
             </div>
