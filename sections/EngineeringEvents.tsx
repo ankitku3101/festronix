@@ -11,7 +11,7 @@ const details : Detail[] = [
     { 
         image: "/hero1.jpg", 
         title: "Line Follower Robot Challenge", 
-        description: "Participants build autonomous robots that follow a set path using sensors, showcasing their programming and control systems knowledge.",
+        description: "The Line Follower Robot Challenge is a robotics competition where autonomous robots must follow a predefined path marked by a black or white line on a contrasting background. The robots should complete the track as quickly and accurately as possible.",
         doclink:'https://docs.google.com/document/d/1y7eWhxu-XmNC8BRYQqbtRhP4JMehEQ82/edit?usp=sharing&ouid=104139874459412838561&rtpof=true&sd=true',
         specification:[
             {
@@ -98,9 +98,9 @@ const details : Detail[] = [
 
 const EngineeringEvents = () => {
   return (
-    <div className='min-h-screen flex justify-center items-center text-light p-20'>
-        <div>
-            <p className='text-center p-15 text-6xl font-bold'>
+    <div className='min-h-screen flex justify-center items-center text-light p-4 md:p-8 lg:p-20 mt-20'>
+        <div className='w-full max-w-7xl'>
+            <p className='text-center mb-12 text-4xl md:text-5xl lg:text-6xl font-bold'>
                 Engineering & Design
             </p>
             <EventDetails details={details} odd={true}/>
