@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Calendar, Clock } from "lucide-react"
+import { Calendar, Clock, Users, Trophy, Clipboard } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 export default function TechfestTimeline() {
@@ -40,24 +40,24 @@ export default function TechfestTimeline() {
       title: "Teams Shortlisting",
       date: "March 16, 2025",
       description: "Selected teams will be notified",
-      icon: <Calendar className="h-6 w-6" />,
+      icon: <Users className="h-6 w-6" />, // Changed to Users icon
     },
     {
       title: "Day 1 & 2 Events",
       date: "March 20-21, 2025",
       description: "Hackathon, Technical workshops, and competitions",
-      icon: <Calendar className="h-6 w-6" />,
+      icon: <Clipboard className="h-6 w-6" />, // Changed to Clipboard icon
     },
     {
       title: "Final Day Events",
       date: "March 22, 2025",
       description: "Project showcase, Award ceremony",
-      icon: <Calendar className="h-6 w-6" />,
+      icon: <Trophy className="h-6 w-6" />, // Changed to Trophy icon
     },
   ]
 
   return (
-    <div id="techfest-timeline"className=" w-full max-w-7xl mx-auto px-4 py-12 text-light">
+    <div id="techfest-timeline" className="w-full max-w-7xl mx-auto px-4 py-12 text-light">
       <h2 className="text-3xl md:text-6xl font-bold text-center mb-12">Techfest Timeline</h2>
 
       <div className={cn("relative", isMobile ? "overflow-x-auto pb-8" : "")}>
@@ -128,4 +128,3 @@ export default function TechfestTimeline() {
     </div>
   )
 }
-
