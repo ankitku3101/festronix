@@ -56,24 +56,24 @@ const EventShowCase = () => {
     <div id="EventShowCase"
     className='bg-center h-screen flex flex-col items-center justify-center'
     >
-        <div className='h-3/10 flex flex-col sm:flex-row items-center justify-center text-amber-50 w-full space-y-4 sm:space-y-0 sm:space-x-16'>
-            
-            <Button variant={'ghost'} className='text-lg px-6 py-3 transition duration-300 ease-in-out hover:bg-[#303030] hover:outline hover:text-blue-500'>
+        <h2 className="text-3xl md:text-6xl font-bold text-center text-light m-6">Events</h2>
+        <h2 className="text-xl md:text-3xl  text-center text-light m-6">Kuch line daal do</h2>
+        <div className='h-4/10 flex flex-col sm:flex-row items-center justify-center text-amber-50 w-full space-y-4 sm:space-y-0 sm:space-x-6'>
+            <Button variant={'ghost'} className='text-xl md:text-2xl font-semibold p-6 md:p-10 bg-[#303030]/80 transition duration-300 ease-in-out hover:bg-[#303030] hover:outline hover:text-blue-500'>
               <Link href={'/events/tech/'}>
                 Coding & Tech Innovation
               </Link>
             </Button>
-            <Button variant={'ghost'} className='text-lg px-6 py-3 transition duration-300 ease-in-out hover:bg-[#303030] hover:outline hover:text-blue-500'>
+            <Button variant={'ghost'} className='text-xl md:text-2xl font-semibold p-6 md:p-10 bg-[#303030]/80 transition duration-300 ease-in-out hover:bg-[#303030] hover:outline hover:text-blue-500'>
               <Link href={'/events/engineering'}>
                 Engineering & Design
               </Link>
             </Button>
-            <Button variant={'ghost'} className='text-lg px-6 py-3 transition duration-300 ease-in-out hover:bg-[#303030] hover:outline hover:text-blue-500'>
+            <Button variant={'ghost'} className='text-xl md:text-2xl font-semibold p-6 md:p-10 bg-[#303030]/80 transition duration-300 ease-in-out hover:bg-[#303030] hover:outline hover:text-blue-500'>
               <Link href={'/events/non-tech'}>
                 Business, Creativity & Knowledge
               </Link>
-            </Button>
-            
+            </Button>  
         </div>
         <div className='h-7/10 flex flex-col sm:flex-row items-center justify-center text-amber-50 w-full'>
             <div className="flex items-center justify-center text-amber-50 sm:w-7/10 w-full sm:h-full h-7/10 p-10">

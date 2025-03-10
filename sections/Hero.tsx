@@ -34,7 +34,7 @@ const Hero = () => {
           <span className="text-green-400">I</span>X
         </h1>
         <p
-          className={`${myFont.className} text-[37px] md:text-[42px] lg:text-[85px] tracking-wider text-right mr-9 -mt-5`}
+          className={`${myFont.className} text-[37px] md:text-[42px] lg:text-[85px] tracking-wider text-right mr-9 -mt-5 md:mr-11 md:-mt-6 lg:mr-20 lg:-mt-10`}
           style={{ fontSize: 'clamp(1.8rem, 5vw, 4rem)' }}
         >
           2<span className="text-green-400">0</span>25
