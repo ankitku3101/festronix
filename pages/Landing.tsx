@@ -1,4 +1,5 @@
 import BGWrapper from '@/components/BGWrapper'
+import Footer from '@/components/Footer'
 import EventShowCase from '@/sections/EventShowCase'
 import FAQSection from '@/sections/Faq'
 import Hero from '@/sections/Hero'
@@ -15,6 +16,7 @@ const Landing = () => {
           <EventShowCase />
           <Sponsors />
           <FAQSection />
+          <Footer />
         </BGWrapper>
     </>
   )

@@ -57,7 +57,7 @@ const EventShowCase = () => {
     className='bg-center h-screen flex flex-col items-center justify-center'
     >
         <h2 className="text-3xl md:text-6xl font-bold text-center text-light m-6">Events</h2>
-        <h2 className="text-xl md:text-3xl  text-center text-light m-6">Kuch line daal do</h2>
+        <h2 className="text-lg md:text-2xl text-center text-light px-4">From coding to creativity, we've got something for everyone</h2>
         <div className='h-4/10 flex flex-col sm:flex-row items-center justify-center text-amber-50 w-full space-y-4 sm:space-y-0 sm:space-x-6'>
             <Button variant={'ghost'} className='text-xl md:text-2xl font-semibold p-6 md:p-10 bg-[#303030]/80 transition duration-300 ease-in-out hover:bg-[#303030] hover:outline hover:text-blue-500'>
               <Link href={'/events/tech/'}>
