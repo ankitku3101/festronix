@@ -47,9 +47,6 @@ const Header = () => {
             <li>
               <Link href={'/register'} className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">Register</Link>
             </li>
-            <li>
-              <Link href={'/#contact'} className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">Helpdesk</Link>
-            </li>
           </ul>
         </div>
       </div>
