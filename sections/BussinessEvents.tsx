@@ -4,28 +4,28 @@ import {Detail} from "@/types/TypeFile"
 
 const details : Detail[] = [
     { 
-        image: "/hero1.jpg", 
+        image: "/Bussiness/treasurehunt3.jpg", 
         title: "Treasure Hunt", 
         description: "Participants must follow the given clues, solve puzzles, search for hidden hints and find the next locations.They should work quickly, either individually or in teams, to reach the final treasure.",
-        doclink:'https://docs.google.com/document/d/1hm4tFdohHC_HfJrpeU87wC5Qs8rB_vfK/edit?usp=sharing&ouid=104139874459412838561&rtpof=true&sd=true',
+        doclink:'https://drive.google.com/file/d/1vvnjdJED7zLPFMNBebFmkOXM8kEFiqTV/view?usp=sharing',
     },
     { 
-        image: "/hero1.jpg", 
+        image: "/Bussiness/digitaldoodle1.jpg", 
         title: "Digital Doodle Contest", 
         description: "The Digital Doodle Contest is an exciting one-round competition open to students from all colleges. Participants will showcase their creativity by designing a unique doodle using digital tools such as mobile devices, laptops, or tablets. The doodle must be created for a specific application.",
-        doclink:"https://drive.google.com/file/d/1JA-OtwivA4e8KzAPcq4FM6E4VJm4MyQh/view?usp=sharing",
+        doclink:"https://drive.google.com/file/d/1k6POPUT05MEWUkAajkimIWm43LyePp75/view?usp=sharing",
     },
     { 
-        image: "/hero1.jpg", 
+        image: "/Bussiness/quiz2.jpg", 
         title: "Tech Quiz", 
         description: "A knowledge-based competition testing participants on advancements in technology, engineering, and science.",
-        doclink:'https://docs.google.com/document/d/1y4f94r68b81eN7WjL2Q-bGoE-X_JRgP1/edit?usp=sharing&ouid=104139874459412838561&rtpof=true&sd=true',
+        doclink:'https://drive.google.com/file/d/1A6hVs9ZUs-Oy-I0Tb7kNbr8sGLIO9Rc1/view?usp=sharing',
     },
     { 
-        image: "/hero1.jpg", 
+        image: "/Bussiness/paperpresentation.jpg", 
         title: "Paper Presentation", 
         description: "The Paper Presentation Challenge is a competition where participants showcase their research or innovative ideas on a technical or business-related topic of their choice. Each team must prepare both a poster and a PowerPoint presentation (PPT) to effectively communicate their findings.",
-        doclink:'https://docs.google.com/document/d/1PJQ5IX4k9rLQLh9lVYfM1qhh7ZOZCI_n/edit?usp=sharing&ouid=104139874459412838561&rtpof=true&sd=true',
+        doclink:'https://drive.google.com/file/d/1c7yiSD3K1l9Y3RwDKSdSKT8OXWZ-0F5n/view?usp=sharing',
         specification:[
             {
               heading: "Team Composition",
@@ -81,26 +81,32 @@ const details : Detail[] = [
         ]
     },
     { 
-        image: "/hero1.jpg", 
+        image: "/Bussiness/debate1.jpg", 
         title: "Tech Debate", 
         description: "A spirited debate on emerging technologies, encouraging critical thinking, communication, and awareness.",
-        doclink:"https://docs.google.com/document/d/1nwu1p1FAqmneLyF8NkhWUDpN86DA7hUl/edit?usp=sharing&ouid=104139874459412838561&rtpof=true&sd=true",
+        doclink:"https://drive.google.com/file/d/1aND5SUBlWufmfL3LKnNT7v7wYxNQB_Jb/view?usp=sharing",
     },
     { 
-        image: "/hero1.jpg", 
+        image: "/Bussiness/smartbussiness.jpg", 
         title: "Smart Businessman", 
         description: "A business simulation where participants set up stalls and strategize to make profits, honing marketing and financial management skills." 
     },
     { 
-        image: "/hero1.jpg", 
+        image: "/Bussiness/smartinvestor1.jpg", 
         title: "Smart Investor", 
         description: "A virtual investment challenge where participants build portfolios and showcase their day-trading expertise." 
     },
     { 
-        image: "/hero1.jpg", 
+        image: "/Bussiness/pitchdeck1.webp", 
         title: "Pitch Deck Through Canva Video", 
         description: "'Pitch Deck Through Canva Video' is an inter-college event aimed at enhancing participants' entrepreneurial and presentation skills. Participants will create compelling pitch decks using Canva and present innovative startup ideas. The event encourages creativity, business acumen, and effective communication.",
-        doclink:"https://docs.google.com/document/d/1rJnf4yt9CR3XcKq5wHAfnr-9z-tjw7o6/edit?usp=sharing&ouid=104139874459412838561&rtpof=true&sd=true",
+        doclink:"https://drive.google.com/file/d/1mkSXITxDNQPm-J7bPWt76AW1LWENTyUK/view?usp=sharing",
+    },
+    {
+      image:"/Bussiness/smartgamer1.jpg",
+      title:"Smart Gamer",
+      description:"A high-stakes battle royale showdown inspired by Free Fire and BGMI, where participants showcase their strategic gameplay, quick reflexes, and team coordination. Compete in intense matches, demonstrate your survival instincts, and prove your mastery in tactical decision-making and in-game strategy. Only the smartest and most skilled gamers will rise to the top!",
+      doclink:"https://drive.google.com/file/d/1xnz5IcSO45JO52KoY6IAIzNuZBCD_0HJ/view?usp=sharing"
     }
 ];
 
