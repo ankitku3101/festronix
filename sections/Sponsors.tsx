@@ -8,26 +8,33 @@ const sponsors = [
 const Sponsors = () => {
   return (
     <div id="Sponsors" className="min-h-screen py-12 px-4 text-white flex flex-col items-center w-full">
-      <div className="text-center mb-12">
-        <h2 className="text-4xl sm:text-5xl font-bold text-light uppercase">Our Sponsors</h2>
+      <div className="text-center mb-10">
+        <h2 className="text-3xl sm:text-5xl font-bold text-light uppercase tracking-wide">
+          Our Sponsors
+        </h2>
       </div>
 
       <div className="flex flex-col sm:flex-row gap-10 w-full max-w-5xl justify-center items-center">
         {sponsors.map((sponsor, index) => (
           <div
             key={index}
-            className="bg-gray-800 p-8 rounded-2xl shadow-lg flex flex-col items-center justify-center w-full sm:w-1/2 h-60 sm:h-72 transform transition duration-300 hover:scale-105 hover:bg-gray-700 hover:shadow-2xl"
+            className="bg-gray-800 p-8 sm:p-10 rounded-2xl shadow-lg flex flex-col items-center justify-center w-full sm:w-1/2 h-72 sm:h-80 transform transition duration-300 hover:scale-105 hover:bg-gray-700 hover:shadow-2xl"
           >
-            <div className="flex items-center justify-center w-48 h-24 sm:w-56 sm:h-32 bg-white rounded-lg shadow-md">
+            {/* Logo Wrapper (Ensures Logo Stays Inside the Card) */}
+            <div className="flex items-center justify-center w-40 h-20 sm:w-52 sm:h-24 bg-white rounded-lg shadow-md">
               <Image
                 src={sponsor.logo}
                 alt={sponsor.name}
-                width={180}
-                height={90}
+                width={150}
+                height={75}
                 className="object-contain"
               />
             </div>
-            <p className="text-xl sm:text-2xl font-semibold text-center mt-10">{sponsor.name}</p>  
+
+            {/* Sponsor Name (Larger Text, Proper Styling) */}
+            <p className="text-lg sm:text-2xl font-semibold text-center mt-12 sm:mt-8 tracking-wide uppercase">
+              {sponsor.name}
+            </p>
           </div>
         ))}
       </div>
