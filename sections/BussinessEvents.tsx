@@ -7,7 +7,7 @@ const details : Detail[] = [
         image: "/Bussiness/treasurehunt3.jpg", 
         title: "Treasure Hunt", 
         description: "Participants must follow the given clues, solve puzzles, search for hidden hints and find the next locations.They should work quickly, either individually or in teams, to reach the final treasure.",
-        doclink:'https://drive.google.com/file/d/1vvnjdJED7zLPFMNBebFmkOXM8kEFiqTV/view?usp=sharing',
+        doclink:'https://drive.google.com/file/d/1HUZUYdpwrcksOT_p3Mwhtbo2fdxkazC4/view?usp=sharing',
     },
     { 
         image: "/Bussiness/digitaldoodle1.jpg", 
