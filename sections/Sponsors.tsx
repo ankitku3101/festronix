@@ -7,7 +7,7 @@ const sponsors = [
 
 const Sponsors = () => {
   return (
-    <div id="Sponsors" className="min-h-screen py-12 px-4 text-white flex flex-col items-center w-full">
+    <div id="Sponsors" className="min-h-full py-12 px-4 text-white flex flex-col items-center w-full">
       <div className="text-center mb-10">
         <h2 className="text-3xl sm:text-5xl font-bold text-light uppercase tracking-wide">
           Our Sponsors
