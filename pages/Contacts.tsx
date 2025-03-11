@@ -11,10 +11,10 @@ const Contacts = () => {
     { event: "Treasure Hunt", name: "Suhanee Sahoo", phone: "7846880822" },
     { event: "Digital Doodle Contest", name: "Ashutosh Kumar Sharma", phone: "8789679161" },
     { event: "Mobile App Development Challenge", name: "Manohar Shah", phone: "9471215919" },
-    { event: "CAD Designing Contest", name: "Sidhanta Das", phone: "xxxxxxxx" },
+    { event: "CAD Designing Contest", name: "Sidhanta Das", phone: "9348118980" },
     { event: "IoT Innovation Challenge", name: "Jyotilaxmi Senapati", phone: "6371773022" },
     { event: "Tech Quiz", name: "Gaytri Palai", phone: "7008774189" },
-    { event: "Paper Presentation", name: "Biswa Ranjan Behera", phone: "xxxxxxxx" },
+    { event: "Paper Presentation", name: "Biswa Ranjan Behera", phone: "9337747632" },
     { event: "Tech Debate", name: "Anil Barik", phone: "7847852171" },
     { event: "Bridge Building Contest", name: "Aman Jena", phone: "8458067536" },
     { event: "Circuit Designing Competition", name: "Sanjana Dash", phone: "9348482746" },
@@ -23,7 +23,7 @@ const Contacts = () => {
     { event: "Smart Gamer", name: "Anshuman Bhoi", phone: "7847829324" },
     { event: "Drone Challenger", name: "Biswakalyan Udgata", phone: "9556756404" },
     { event: "Pitch Deck Through Canva Video", name: "Susmita Das", phone: "7439606986" },
-    { event: "Closing Ceremony", name: "Ananya Pradhan", phone: "xxxxxxxxx" },
+    { event: "Closing Ceremony", name: "Ananya Pradhan", phone: "7846974306" },
   ];
 
   return (
