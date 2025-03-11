@@ -26,13 +26,13 @@ export default function TechfestTimeline() {
   const timelineEvents = [
     {
       title: "Registration Opens",
-      date: "March 10, 2025",
+      date: "March 11, 2025",
       description: "Start registering your team for the techfest",
       icon: <Calendar className="h-6 w-6" />,
     },
     {
       title: "Registration Closes",
-      date: "March 15, 2025",
+      date: "March 19, 2025",
       description: "Last date to register your team",
       icon: <Clock className="h-6 w-6" />,
     },
