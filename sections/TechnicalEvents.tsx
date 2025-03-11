@@ -13,7 +13,7 @@ const details : Detail[] = [
         image: "/techevents/aiml.jpg", 
         title: "AI & ML Model Contest", 
         description: "A fast-paced competition where developers and data scientists come together to showcase their build innovative AI-ML models.",
-        doclink:"https://drive.google.com/file/d/1YIpvAh8p8tXOSLLgFQjWabl6qCWACJZO/view?usp=sharing",
+        doclink:"https://drive.google.com/file/d/18Zu2pLec5rbesWQejP_h_PBDVRqpW19n/view?usp=sharing",
     },
     { 
         image: "/techevents/webdesign1.jpg", 
