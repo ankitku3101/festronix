@@ -5,8 +5,9 @@ import {Detail,indepthDetails} from "@/types/TypeFile"
 const details : Detail[] = [
     { 
         image: "/techevents/hackathon1.jpg", 
-        title: "Hackathon", 
-        description: "A 24-hour coding showdown where participants solve real-world problems, fostering innovation, teamwork, and technical excellence." 
+        title: "CodeNexus - Hackathon", 
+        description: "A 24-hour coding showdown where participants solve real-world problems, fostering innovation, teamwork, and technical excellence.",
+        doclink:"https://codenexus-festronix.vercel.app",
     },
     { 
         image: "/techevents/aiml.jpg", 

@@ -32,25 +32,25 @@ export default function TechfestTimeline() {
     },
     {
       title: "Registration Closes",
-      date: "March 19, 2025",
+      date: "March 18, 2025",
       description: "Last date to register your team",
       icon: <Clock className="h-6 w-6" />,
     },
     {
       title: "Teams Shortlisting",
-      date: "March 16, 2025",
+      date: "March 19, 2025",
       description: "Selected teams will be notified",
       icon: <Users className="h-6 w-6" />, // Changed to Users icon
     },
     {
-      title: "Day 1 & 2 Events",
-      date: "March 20-21, 2025",
+      title: "Day 1 Events",
+      date: "March 20, 2025",
       description: "Hackathon, Technical workshops, and competitions",
       icon: <Clipboard className="h-6 w-6" />, // Changed to Clipboard icon
     },
     {
-      title: "Final Day Events",
-      date: "March 22, 2025",
+      title: "Day 2 Events",
+      date: "March 21, 2025",
       description: "Project showcase, Award ceremony",
       icon: <Trophy className="h-6 w-6" />, // Changed to Trophy icon
     },

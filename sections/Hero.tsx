@@ -30,8 +30,8 @@ const Hero = () => {
           className={`${myFont.className} text-6xl md:text-7xl lg:text-9xl tracking-wide`}
           style={{ fontSize: 'clamp(3rem, 9vw, 9rem)', textAlign: 'center' }}
         >
-          FESTR<span className="text-green-400">O</span>N
-          <span className="text-green-400">I</span>X
+          FESTR<span className="text-green-400">O</span>NI
+          <span className="text-green-400">X</span>
         </h1>
         <p
           className={`${myFont.className} text-[37px] md:text-[42px] lg:text-[85px] tracking-wider text-right mr-9 -mt-5 md:mr-11 md:-mt-6 lg:mr-20 lg:-mt-10`}
