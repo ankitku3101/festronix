@@ -27,14 +27,14 @@ const Contacts = () => {
   ];
 
   return (
-    <section className="flex items-center justify-center min-h-screen bg-gray-900 text-gray-300 p-6">
+    <section className="flex items-center justify-center min-h-screen bg-gray-900 text-white p-6">
       <div className="max-w-5xl w-full bg-gray-800 p-4 rounded-lg shadow-lg">
-        <h2 className="text-2xl font-bold text-center mb-4 text-green-400">Contact Us</h2>
+        <h2 className="text-3xl font-bold text-center mb-4 text-green-400">Contact Us</h2>
         <div className="overflow-x-auto">
-          <table className="w-full border border-gray-700 rounded-lg shadow-md text-xs">
+          <table className="w-full border border-gray-700 rounded-lg shadow-md text-sm">
             <thead>
-              <tr className="bg-gray-700 text-gray-300 text-xs">
-                <th className="p-2 border border-gray-600 text-center">S.No</th>
+              <tr className="bg-gray-700 text-white text-xs">
+                <th className="p-2 border border-gray-600 text-center">S. No</th>
                 <th className="p-2 border border-gray-600 text-center">Event</th>
                 <th className="p-2 border border-gray-600 text-center">Student Coordinator</th>
                 <th className="p-2 border border-gray-600 text-center">Phone</th>
@@ -42,12 +42,7 @@ const Contacts = () => {
             </thead>
             <tbody>
               {contacts.map((contact, index) => (
-                <tr
-                  key={index}
-                  className={`border-b border-gray-700 text-center ${
-                    index % 2 === 0 ? "bg-gray-700" : "bg-gray-600"
-                  }`}
-                >
+                <tr key={index} className="border-b border-gray-700 text-center odd:bg-gray-900 even:bg-gray-800 text-xs">
                   <td className="p-2">{index + 1}</td>
                   <td className="p-2">{contact.event}</td>
                   <td className="p-2">{contact.name}</td>
