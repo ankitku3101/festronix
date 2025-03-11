@@ -94,7 +94,8 @@ const details : Detail[] = [
     { 
         image: "/Bussiness/smartinvestor1.jpg", 
         title: "Smart Investor", 
-        description: "A virtual investment challenge where participants build portfolios and showcase their day-trading expertise." 
+        description: "A virtual investment challenge where participants build portfolios and showcase their day-trading expertise.",
+        doclink:"https://drive.google.com/file/d/1-poEhHuQEKDYPFhwqB17gXV7EARSv2_m/view?usp=sharing"
     },
     { 
         image: "/Bussiness/pitchdeck1.webp", 
