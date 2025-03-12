@@ -2,28 +2,160 @@ import React from "react";
 
 const Schedule = () => {
   const events = [
-    { event: "Inauguration", venue: "218", time: "9:00 AM - 10:00 AM", name: "Ashalata Parida", phone: "9876543201" },
-    { event: "CodeNexus - Hackathon", venue: "218", time: "9:00 AM - 12:00 PM (Ends next day 12:00 PM)", name: "Ankit Kumar", phone: "7257830827" },
-    { event: "Robo War", venue: "TBA", time: "9:00 AM - 12:00 PM", name: "Ashwini Kumar Sahoo", phone: "8093647732" },
-    { event: "Line Follower Robot Challenge", venue: "331", time: "10:00 AM - 1:00 PM", name: "Prakash Sahoo", phone: "9668187814" },
-    { event: "AI & ML Model Contest", venue: "109", time: "12:30 PM - 4:00 PM", name: "Samprita Patra", phone: "9937884878" },
-    { event: "Web Design Contest", venue: "323", time: "11:00 AM - 2:00 PM", name: "Abinash Dash", phone: "7978825471" },
-    { event: "Treasure Hunt", venue: "TBA", time: "12:30 PM - 3:30 PM", name: "Suhanee Sahoo", phone: "7846880822" },
-    { event: "Digital Doodle Contest", venue: "222", time: "10:00 AM - 12:00 PM", name: "Ashutosh Kumar Sharma", phone: "8789679161" },
-    { event: "Mobile App Development Challenge", venue: "109", time: "9:00 AM - 12:00 PM", name: "Manohar Shah", phone: "9471215919" },
-    { event: "CAD Designing Contest", venue: "TBA", time: "10:00 AM - 1:00 PM", name: "Sidhanta Das", phone: "9348118980" },
-    { event: "IoT Innovation Challenge", venue: "222/223", time: "10:00 AM - 2:00 PM", name: "Jyotilaxmi Senapati", phone: "6371773022" },
-    { event: "Tech Quiz", venue: "426", time: "11:00 AM - 1:00 PM", name: "Gaytri Palai", phone: "7008774189" },
-    { event: "Paper Presentation", venue: "220", time: "9:00 AM - 1:00 PM", name: "Biswa Ranjan Behera", phone: "9337747632" },
-    { event: "Tech Debate", venue: "426", time: "2:00 PM - 4:00 PM", name: "Anil Barik", phone: "7847852171" },
-    { event: "Bridge Building Contest", venue: "TBA", time: "2:00 PM - 4:00 PM", name: "Aman Jena", phone: "8458067536" },
-    { event: "Circuit Designing Competition", venue: "TBA", time: "10:00 AM - 12:30 PM", name: "Sanjana Dash", phone: "9348482746" },
-    { event: "Smart Businessman", venue: "325", time: "10:00 AM - 4:00 PM", name: "Anjali Padhiary", phone: "xxxxxxxxxx" },
-    { event: "Smart Investor", venue: "220", time: "10:00 AM - 4:00 PM", name: "Mohammad Asad", phone: "9570048880" },
-    { event: "Smart Gamer", venue: "319", time: "10:00 AM - 1:00 PM", name: "Anshuman Bhoi", phone: "7847829324" },
-    { event: "Drone Challenge", venue: "TBA", time: "2:00 PM - 4:00 PM", name: "Biswakalyan Udgata", phone: "9556756404" },
-    { event: "Pitch Deck Through Canva Video", venue: "TBA", time: "10:00 AM - 2:00 PM", name: "Susmita Das", phone: "7439606986" },
-    { event: "Closing Ceremony", venue: "218", time: "3:00 PM - 4:00 PM", name: "Ananya Pradhan", phone: "7846974306" },
+    { 
+      event: "Inauguration", 
+      venue: "218", 
+      time: "Day-1, 9:00 AM - 10:00 AM", 
+      name: "Ashalata Parida", 
+      phone: "9876543201"
+    },
+    { 
+      event: "CodeNexus - Hackathon", 
+      venue: "218", 
+      time: "Day-1:09:00AM - Day-2:12:00PM", 
+      name: "Ankit Kumar", 
+      phone: "7257830827" 
+    },
+    { 
+      event: "Robo War", 
+      venue: "TBA", 
+      time: "Day-2, 9:00 AM - 12:00 PM", 
+      name: "Ashwini Kumar Sahoo", 
+      phone: "8093647732" 
+    },
+    { 
+      event: "Line Follower Robot Challenge", 
+      venue: "331", 
+      time: "Day-1, 10:00 AM - 1:00 PM", 
+      name: "Prakash Sahoo", 
+      phone: "9668187814" 
+    },
+    { 
+      event: "AI & ML Model Contest", 
+      venue: "109", 
+      time: "Day-1, 12:30 PM - 4:00 PM", 
+      name: "Samprita Patra", 
+      phone: "9937884878" 
+    },
+    { 
+      event: "Web Design Contest", 
+      venue: "323", 
+      time: "Day-1, 11:00 AM - 2:00 PM", 
+      name: "Abinash Dash", 
+      phone: "7978825471" 
+    },
+    { 
+      event: "Treasure Hunt", 
+      venue: "TBA", 
+      time: "Day-1, 12:30 PM - 3:30 PM", 
+      name: "Suhanee Sahoo", 
+      phone: "7846880822" 
+    },
+    { 
+      event: "Digital Doodle Contest", 
+      venue: "222", 
+      time: "Day-1, 10:00 AM - 12:00 PM", 
+      name: "Ashutosh Kumar Sharma", 
+      phone: "8789679161" 
+    },
+    { 
+      event: "Mobile App Development Challenge", 
+      venue: "109", 
+      time: "Day-2, 9:00 AM - 12:00 PM", 
+      name: "Manohar Shah", 
+      phone: "9471215919" 
+    },
+    { 
+      event: "CAD Designing Contest", 
+      venue: "TBA", 
+      time: "Day-2, 10:00 AM - 1:00 PM", 
+      name: "Sidhanta Das", 
+      phone: "9348118980" 
+    },
+    { 
+      event: "IoT Innovation Challenge", 
+      venue: "222/223", 
+      time: "Day-2, 10:00 AM - 2:00 PM", 
+      name: "Jyotilaxmi Senapati", 
+      phone: "6371773022" 
+    },
+    { 
+      event: "Tech Quiz", 
+      venue: "426", 
+      time: "Day-2, 11:00 AM - 1:00 PM", 
+      name: "Gaytri Palai", 
+      phone: "7008774189" 
+    },
+    { 
+      event: "Paper Presentation", 
+      venue: "220", 
+      time: "Day-2, 9:00 AM - 1:00 PM", 
+      name: "Biswa Ranjan Behera", 
+      phone: "9337747632" 
+    },
+    { 
+      event: "Tech Debate", 
+      venue: "426", 
+      time: "Day-1, 2:00 PM - 4:00 PM", 
+      name: "Anil Barik", 
+      phone: "7847852171" 
+    },
+    { 
+      event: "Bridge Building Contest", 
+      venue: "TBA", 
+      time: "Day-2, 2:00 PM - 4:00 PM", 
+      name: "Aman Jena", 
+      phone: "8458067536" 
+    },
+    { 
+      event: "Circuit Designing Competition", 
+      venue: "TBA", 
+      time: "Day-1, 10:00 AM - 12:30 PM", 
+      name: "Sanjana Dash", 
+      phone: "9348482746" 
+    },
+    { 
+      event: "Smart Business Personal", 
+      venue: "325", 
+      time: "Day-2, 10:00 AM - 4:00 PM", 
+      name: "Anjali Padhiary", 
+      phone: "xxxxxxxxxx" 
+    },
+    { 
+      event: "Smart Investor", 
+      venue: "220", 
+      time: "Day-1, 10:00 AM - 4:00 PM", 
+      name: "Mohammad Asad", 
+      phone: "9570048880" 
+    },
+    { 
+      event: "Smart Gamer", 
+      venue: "319", 
+      time: "Day-1, 10:00 AM - 1:00 PM", 
+      name: "Anshuman Bhoi", 
+      phone: "7847829324" 
+    },
+    { 
+      event: "Drone Challenger", 
+      venue: "TBA", 
+      time: "Day-1, 2:00 PM - 4:00 PM", 
+      name: "Biswakalyan Udgata", 
+      phone: "9556756404" 
+    },
+    { 
+      event: "Pitch Deck Through Canva Video", 
+      venue: "TBA", 
+      time: "Day-2, 10:00 AM - 2:00 PM", 
+      name: "Susmita Das", 
+      phone: "7439606986" 
+    },
+    { 
+      event: "Closing Ceremony", 
+      venue: "218", 
+      time: "Day-2, 3:00 PM - 4:00 PM", 
+      name: "Ananya Pradhan", 
+      phone: "7846974306" 
+    },
   ];
 
   return (

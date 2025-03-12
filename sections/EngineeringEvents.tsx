@@ -19,7 +19,7 @@ const details : Detail[] = [
         image: "/engineer/linefollowingrobot.webp", 
         title: "Line Follower Robot Challenge", 
         description: "The Line Follower Robot Challenge is a robotics competition where autonomous robots must follow a predefined path marked by a black or white line on a contrasting background. The robots should complete the track as quickly and accurately as possible.",
-        doclink:'https://drive.google.com/file/d/1iOAg0_T9CNfAmdt1glaf4I4C7bsdYbgV/view?usp=sharing',
+        doclink:'https://drive.google.com/file/d/10dIs3DrblTuVJIAu_lxmirdL_AwcCpIJ/view?usp=sharing',
         specification:[
             {
                 heading:"Team Composition",
@@ -95,7 +95,8 @@ const details : Detail[] = [
     { 
         image: "/engineer/bridge.jpg", 
         title: "Bridge Building Contest", 
-        description: "An engineering challenge to construct miniature bridges, evaluating strength, stability, and structural integrity." 
+        description: "An engineering challenge to construct miniature bridges, evaluating strength, stability, and structural integrity." ,
+        doclink:"https://docs.google.com/document/d/1yXnKg1P6TBsx0hPuA_qRXeS9bKXkv1En/edit?usp=sharing&ouid=104139874459412838561&rtpof=true&sd=true"
     },
     { 
         image: "/engineer/circuitdesign2.jpg", 

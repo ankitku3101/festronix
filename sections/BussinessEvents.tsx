@@ -88,8 +88,9 @@ const details : Detail[] = [
     },
     { 
         image: "/Bussiness/smartbussiness.jpg", 
-        title: "Smart Businessman", 
-        description: "A business simulation where participants set up stalls and strategize to make profits, honing marketing and financial management skills." 
+        title: "Best Business Personal", 
+        description: "A business simulation where participants set up stalls and strategize to make profits, honing marketing and financial management skills.",
+        doclink:"https://docs.google.com/document/d/1CZrA2aoIkI8N24vT9VlYIxRjcZndROmX/edit?usp=sharing&ouid=104139874459412838561&rtpof=true&sd=true"
     },
     { 
         image: "/Bussiness/smartinvestor1.jpg", 
