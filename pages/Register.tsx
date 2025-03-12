@@ -17,11 +17,15 @@ function Register() {
             </p>
             <p className='text-center m-8 text-lg md:text-xl lg:text-2xl text-white '>
                 <span className='text-green-300 font-semibold'>Step 1</span><br/> Click on this link & fill out all the details.<br/> Then you will get an unique ID. <br/>
-                <Link href={'https://festronix-registration.vercel.app'} className='text-blue-300'>https://festronix-registration.vercel.app</Link>
+                <button type="button" className="my-3 text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                    <Link href={'https://festronix-registration.vercel.app'}>Register Here</Link>
+                </button>
             </p>
             <p className='text-center m-8 text-lg md:text-xl lg:text-2xl text-white '>
                 <span className='text-green-300 font-semibold'>Step 2</span><br/> After getting the ID, go to this link and download your ticket.<br/> Tickets will be issued only after verification. <br/>
-                <Link href={'https://festronix-downloadtickets.vercel.app'} className='text-blue-300'>https://festronix-downloadtickets.vercel.app</Link>
+                <button type="button" className="my-3 text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                    <Link href={'https://festronix-downloadtickets.vercel.app'}>Download Ticket</Link>
+                </button>
             </p>
         </div>
     </div>
