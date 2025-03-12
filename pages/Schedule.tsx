@@ -4,15 +4,15 @@ const Schedule = () => {
   const events = [
     { 
       event: "Inauguration", 
-      venue: "TBA", 
+      venue: "218", 
       time: "Day-1, 9:00 AM - 10:00 AM", 
       name: "Ashalata Parida", 
       phone: "9876543201"
     },
     { 
       event: "CodeNexus - Hackathon", 
-      venue: "TBA", 
-      time: "TBA", 
+      venue: "218", 
+      time: "Day-1:09:00AM - Day-2:12:00PM", 
       name: "Ankit Kumar", 
       phone: "7257830827" 
     },
@@ -25,21 +25,21 @@ const Schedule = () => {
     },
     { 
       event: "Line Follower Robot Challenge", 
-      venue: "TBA", 
+      venue: "331", 
       time: "Day-1, 10:00 AM - 1:00 PM", 
       name: "Prakash Sahoo", 
       phone: "9668187814" 
     },
     { 
       event: "AI & ML Model Contest", 
-      venue: "TBA", 
+      venue: "109", 
       time: "Day-1, 12:30 PM - 4:00 PM", 
       name: "Samprita Patra", 
       phone: "9937884878" 
     },
     { 
       event: "Web Design Contest", 
-      venue: "TBA", 
+      venue: "323", 
       time: "Day-1, 11:00 AM - 2:00 PM", 
       name: "Abinash Dash", 
       phone: "7978825471" 
@@ -53,14 +53,14 @@ const Schedule = () => {
     },
     { 
       event: "Digital Doodle Contest", 
-      venue: "TBA", 
+      venue: "222", 
       time: "Day-1, 10:00 AM - 12:00 PM", 
       name: "Ashutosh Kumar Sharma", 
       phone: "8789679161" 
     },
     { 
       event: "Mobile App Development Challenge", 
-      venue: "TBA", 
+      venue: "109", 
       time: "Day-2, 9:00 AM - 12:00 PM", 
       name: "Manohar Shah", 
       phone: "9471215919" 
@@ -74,28 +74,28 @@ const Schedule = () => {
     },
     { 
       event: "IoT Innovation Challenge", 
-      venue: "TBA", 
+      venue: "222/223", 
       time: "Day-2, 10:00 AM - 2:00 PM", 
       name: "Jyotilaxmi Senapati", 
       phone: "6371773022" 
     },
     { 
       event: "Tech Quiz", 
-      venue: "TBA", 
+      venue: "426", 
       time: "Day-2, 11:00 AM - 1:00 PM", 
       name: "Gaytri Palai", 
       phone: "7008774189" 
     },
     { 
       event: "Paper Presentation", 
-      venue: "TBA", 
+      venue: "220", 
       time: "Day-2, 9:00 AM - 1:00 PM", 
       name: "Biswa Ranjan Behera", 
       phone: "9337747632" 
     },
     { 
       event: "Tech Debate", 
-      venue: "TBA", 
+      venue: "426", 
       time: "Day-1, 2:00 PM - 4:00 PM", 
       name: "Anil Barik", 
       phone: "7847852171" 
@@ -116,21 +116,21 @@ const Schedule = () => {
     },
     { 
       event: "Smart Business Personal", 
-      venue: "TBA", 
+      venue: "325", 
       time: "Day-2, 10:00 AM - 4:00 PM", 
       name: "Anjali Padhiary", 
       phone: "xxxxxxxxxx" 
     },
     { 
       event: "Smart Investor", 
-      venue: "TBA", 
+      venue: "220", 
       time: "Day-1, 10:00 AM - 4:00 PM", 
       name: "Mohammad Asad", 
       phone: "9570048880" 
     },
     { 
       event: "Smart Gamer", 
-      venue: "TBA", 
+      venue: "319", 
       time: "Day-1, 10:00 AM - 1:00 PM", 
       name: "Anshuman Bhoi", 
       phone: "7847829324" 
@@ -145,13 +145,13 @@ const Schedule = () => {
     { 
       event: "Pitch Deck Through Canva Video", 
       venue: "TBA", 
-      time: "TBA", 
+      time: "Day-2, 10:00 AM - 2:00 PM", 
       name: "Susmita Das", 
       phone: "7439606986" 
     },
     { 
       event: "Closing Ceremony", 
-      venue: "TBA", 
+      venue: "218", 
       time: "Day-2, 3:00 PM - 4:00 PM", 
       name: "Ananya Pradhan", 
       phone: "7846974306" 
