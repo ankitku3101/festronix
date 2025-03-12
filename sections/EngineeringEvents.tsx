@@ -19,7 +19,7 @@ const details : Detail[] = [
         image: "/engineer/linefollowingrobot.webp", 
         title: "Line Follower Robot Challenge", 
         description: "The Line Follower Robot Challenge is a robotics competition where autonomous robots must follow a predefined path marked by a black or white line on a contrasting background. The robots should complete the track as quickly and accurately as possible.",
-        doclink:'https://drive.google.com/file/d/1iOAg0_T9CNfAmdt1glaf4I4C7bsdYbgV/view?usp=sharing',
+        doclink:'https://drive.google.com/file/d/10dIs3DrblTuVJIAu_lxmirdL_AwcCpIJ/view?usp=sharing',
         specification:[
             {
                 heading:"Team Composition",
