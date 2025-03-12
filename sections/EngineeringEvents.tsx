@@ -95,7 +95,8 @@ const details : Detail[] = [
     { 
         image: "/engineer/bridge.jpg", 
         title: "Bridge Building Contest", 
-        description: "An engineering challenge to construct miniature bridges, evaluating strength, stability, and structural integrity." 
+        description: "An engineering challenge to construct miniature bridges, evaluating strength, stability, and structural integrity." ,
+        doclink:"https://docs.google.com/document/d/1yXnKg1P6TBsx0hPuA_qRXeS9bKXkv1En/edit?usp=sharing&ouid=104139874459412838561&rtpof=true&sd=true"
     },
     { 
         image: "/engineer/circuitdesign2.jpg", 
