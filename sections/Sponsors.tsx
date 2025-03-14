@@ -3,6 +3,7 @@ import Image from "next/image";
 const sponsors = [
   { name: "IIG VARSITY", logo: "/logo/logo_iig.png" },
   { name: "WEB _ BOCKET", logo: "/logo/logo_wb.png" },
+  { name: "Lakshya Institute of Technology", logo: "/logo/logo_lit.png" },
 ];
 
 const Sponsors = () => {
