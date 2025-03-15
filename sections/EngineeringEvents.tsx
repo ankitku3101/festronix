@@ -13,7 +13,6 @@ const details : Detail[] = [
         image: "/engineer/robowar.jpg", 
         title: "Robo War", 
         description: "A combat-based robotics challenge where teams design and build robots to battle, testing engineering, control, and strategy.",
-        doclink:"https://drive.google.com/file/d/1Lc3kzczNx7sf10nQUUDYKgvNb3L-Fhqh/view?usp=sharing",
     },
     { 
         image: "/engineer/linefollowingrobot.webp", 
