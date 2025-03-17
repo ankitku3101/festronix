@@ -17,11 +17,11 @@ const Schedule = () => {
       phone: "7257830827" 
     },
     { 
-      event: "Robo War", 
+      event: "Robo Sumo War", 
       venue: "TBA", 
       time: "Day-2, 9:00 AM - 12:00 PM", 
-      name: "Ashwini Kumar Sahoo", 
-      phone: "8093647732" 
+      name: "Smarak Mohanty", 
+      phone: "8018107596" 
     },
     { 
       event: "Line Follower Robot Challenge", 
