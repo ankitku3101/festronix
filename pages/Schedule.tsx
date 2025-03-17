@@ -32,7 +32,7 @@ const Schedule = () => {
     },
     { 
       event: "AI & ML Model Contest", 
-      venue: "109", 
+      venue: "TBA", 
       time: "Day-2, 12:00 PM - 03:00 PM", 
       name: "Samprita Patra", 
       phone: "9937884878" 
@@ -54,7 +54,7 @@ const Schedule = () => {
     
     { 
       event: "Mobile App Development Challenge", 
-      venue: "109", 
+      venue: "TBA", 
       time: "Day-2, 12:00 PM - 03:00 PM", 
       name: "Manohar Shah", 
       phone: "9471215919" 
