@@ -3,7 +3,9 @@ import Image from "next/image";
 const sponsors = [
   { name: "IIG VARSITY", logo: "/logo/logo_iig.png" },
   { name: "WEB _ BOCKET", logo: "/logo/logo_wb.png" },
-  { name: "Lakshya Institute of Technology", logo: "/logo/logo_lit.png" },
+  { name: "LIT", logo: "/logo/logo_lit.jpg" },
+  { name: "PYHTONSOFT", logo: "/logo/logo_pythonsoft.jpg" },
+  { name: "PRADHAN", logo: "/logo/logo_pradhan.png" },
 ];
 
 const Sponsors = () => {
@@ -22,7 +24,7 @@ const Sponsors = () => {
             className="bg-gray-800 p-8 sm:p-10 rounded-2xl shadow-lg flex flex-col items-center justify-center w-full sm:w-1/2 h-72 sm:h-80 transform transition duration-300 hover:scale-105 hover:bg-gray-700 hover:shadow-2xl"
           >
             {/* Logo Wrapper (Ensures Logo Stays Inside the Card) */}
-            <div className="flex items-center justify-center w-40 h-20 sm:w-52 sm:h-24 bg-white rounded-lg shadow-md">
+            <div className="flex items-center justify-center w-40 h-20 sm:w-52 sm:h-24 rounded-lg">
               <Image
                 src={sponsor.logo}
                 alt={sponsor.name}
