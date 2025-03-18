@@ -130,9 +130,16 @@ const Schedule = () => {
       phone: "7847829324" 
     },
     { 
+      event: "Digital Doodle Contest", 
+      venue: "222", 
+      time: "Day-2, 09:00 AM - 12:00 PM", 
+      name: "Ashutosh Kumar Sharma", 
+      phone: "8789679161" 
+    },
+    { 
       event: "Drone Challenger", 
       venue: "TBA", 
-      time: "Day-1, 02:00 PM - 04:00 PM", 
+      time: "Day-2, 09:00 AM - 11:00 AM", 
       name: "Biswakalyan Udgata", 
       phone: "9556756404" 
     },
