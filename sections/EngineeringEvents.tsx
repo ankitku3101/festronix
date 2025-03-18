@@ -102,7 +102,7 @@ const details : Detail[] = [
         image: "/engineer/circuitdesign2.jpg", 
         title: "Circuit Designing Competition", 
         description: "A test of electronics knowledge where participants design and assemble functional electronic circuits.",
-        doclink:"https://drive.google.com/file/d/1eaZAY2qcN7pOBtIWxU75SqWs11mhKFLo/view?usp=sharing"
+        doclink:"https://docs.google.com/document/d/1BVmnXHWyKB8YmgjCfOcdkMsgC4mfoGr3/edit?usp=sharing&ouid=104139874459412838561&rtpof=true&sd=true"
     }
 ];
 
