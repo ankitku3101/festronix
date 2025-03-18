@@ -108,7 +108,7 @@ const details : Detail[] = [
       image:"/Bussiness/smartgamer1.jpg",
       title:"Smart Gamer",
       description:"A high-stakes battle royale showdown inspired by Free Fire and BGMI, where participants showcase their strategic gameplay, quick reflexes, and team coordination. Compete in intense matches, demonstrate your survival instincts, and prove your mastery in tactical decision-making and in-game strategy. Only the smartest and most skilled gamers will rise to the top!",
-      doclink:"https://drive.google.com/file/d/1xnz5IcSO45JO52KoY6IAIzNuZBCD_0HJ/view?usp=sharing"
+      doclink:"https://docs.google.com/document/d/1eLloP5aOo_JgfdQcUXjDollw7Juhj8N1/edit?usp=sharing&ouid=104139874459412838561&rtpof=true&sd=true"
     }
 ];
 
