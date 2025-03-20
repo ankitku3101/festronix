@@ -6,6 +6,7 @@ const sponsors = [
   { name: "LIT", logo: "/logo/logo_lit.jpg" },
   { name: "PYHTONSOFT", logo: "/logo/logo_pythonsoft.jpg" },
   { name: "PRADHAN", logo: "/logo/logo_pradhan.png" },
+  { name: "OKCL", logo:"/logo/OKCL.png"},
 ];
 
 const Sponsors = () => {
