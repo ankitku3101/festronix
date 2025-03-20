@@ -13,7 +13,7 @@ const details : Detail[] = [
         image: "/engineer/robowar.jpg", 
         title: "Sumo Robo Competition", 
         description: "A combat-based robotics challenge where teams design and build robots to battle, testing engineering, control, and strategy.",
-        doclink:"https://drive.google.com/file/d/1GWpZ6HG3jHHiw5QboecPV2Q_vbzM_M9z/view?usp=sharing"
+        doclink:"https://drive.google.com/file/d/1Ql4TEbbJ01g1HXuS48bdAed_dGBko0ky/view?usp=sharing"
     },
     { 
         image: "/engineer/linefollowingrobot.webp", 
